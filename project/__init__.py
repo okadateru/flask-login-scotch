@@ -7,6 +7,7 @@ the database and register our blueprints
 https://chaingng.github.io/post/blueprint/
 """
 
+
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
