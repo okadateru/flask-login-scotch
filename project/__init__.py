@@ -2,7 +2,13 @@
 This script will have the function to create our app which will initialize 
 the database and register our blueprints
 
-ブループリントはアプリケーションを構造化するのに役に立つ
+__init__.pyの主な役割 =>
+
+1 各モジュール(.pyfile)をまとめてパッケージ化する
+2. 必要なモジュールをimportするなどの初期化処理を記載し，初期化の役割を担う
+
+
+ブループリントはアプリケーションを構造化するのに役に立つ(一つのアプリにビューが増えすぎて大きくなりすぎる時にアプリを分割する))
 ブループリントを使うと、ビュー、テンプレート、staticfilesをまとめてアプリケーションに適用できる
 https://chaingng.github.io/post/blueprint/
 """

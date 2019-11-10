@@ -5,6 +5,8 @@ from flask_login import login_user
 from .models import User
 from . import db
 
+
+# @bp.route(‘/’)は、url_prefix=’/auth’と結合され、 @app.route(‘/users/’)を登録したのと同じことになる。
 auth = Blueprint('auth', __name__)
 
 
